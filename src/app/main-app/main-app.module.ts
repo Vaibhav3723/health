@@ -1,16 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonCompsModule } from '../common/common-comps.module';
 import { MainAppComponent } from './main-app.component';
+import { MainContentComponent } from './main-content/main-content.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
-    CommonCompsModule
+    CommonCompsModule,
+    RouterModule
   ],
   declarations: [
-    MainAppComponent
+    MainAppComponent,
+    MainContentComponent
   ],
   exports: [
-    MainAppComponent
+    MainAppComponent,
+    MainContentComponent
   ]
 })
 export class MainAppModule {

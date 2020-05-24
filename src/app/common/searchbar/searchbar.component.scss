@@ -1,0 +1,33 @@
+input {
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid darkgray;
+    position: relative;
+    left: -25px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.search-icon {
+    z-index: 1;
+    color: gray;
+}
+
+.wrapper {
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    width: 0;
+    z-index: 1 ;
+}
+
+.search-button {
+    outline: none;
+    height: 100%;
+    color: white;
+    background-color: cadetblue;
+    border:0px;
+    border-radius: 20px;
+    padding: 0px 40px;
+    cursor: pointer;
+}

@@ -4,3 +4,6 @@
 @import "./app/styles/margin";
 @import "./app/styles/padding";
 @import "./app/styles/common";
+
+$fa-font-path: "../node_modules/font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
